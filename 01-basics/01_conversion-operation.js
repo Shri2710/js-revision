@@ -2,8 +2,8 @@ let score = 33;
 
 let valueInScore = Number(score);
 
-console.log(typeof score);
-console.log(valueInScore);
+// console.log(typeof score);
+// console.log(valueInScore);
 
 
 // "33" => 33
@@ -14,3 +14,13 @@ console.log(valueInScore);
 // undefined => NaN
 // "" => NaN
 
+
+// ******************************* Operations *********************************
+
+// console.log(1 + "2");
+// console.log("1" + 2);
+// console.log("1" + 2 + 2);
+// console.log(2 + 2 + "1");
+
+console.log(+true);
+console.log(+"");
